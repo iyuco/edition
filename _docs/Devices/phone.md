@@ -1,6 +1,6 @@
 ---
 title: Phone
-category: Contact Syncing
+category: Devices
 order: 2
 ---
 
@@ -16,3 +16,5 @@ To sync your contacts:
 4. Select some or all of your contacts
 
 ![](//placehold.it/800x600)
+
+

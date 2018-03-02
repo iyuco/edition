@@ -1,6 +1,7 @@
 ---
 title: Facebook
-category: Contact Syncing
+category: Media
+site.show_full_navigation: false
 order: 1
 ---
 
@@ -15,3 +16,4 @@ To sync your contacts:
 3. Authorise ChatApp
 
 ![](//placehold.it/800x600)
+

@@ -61,9 +61,13 @@
 				</ul>
 
 				<ul>
-					<li class="nav-item top-level {% if page.url == '/changelog/' %}current{% endif %}">
-						{% assign changelog = site.html_pages | where: 'url', '/changelog/' | first %}
-						<a href="{{ site.baseurl }}/changelog/">{{ changelog.title }}</a>
+					<li class="nav-item top-level {% if page.url == '/about/' %}current{% endif %}">
+						{% assign about = site.html_pages | where: 'url', '/about/' | first %}
+						<a href="{{ site.baseurl }}/about/">{{ about.title }}</a>
+					</li>
+					<li class="nav-item top-level {% if page.url == '/conatct/' %}current{% endif %}">
+						{% assign contact = site.html_pages | where: 'url', '/contact/' | first %}
+						<a href="{{ site.baseurl }}/contact/">{{ contact.title }}</a>
 					</li>
 				</ul>
 			</nav>
@@ -86,3 +90,5 @@
 		</script>
 	</body>
 </html>
+
+
