@@ -67,6 +67,27 @@ A_{m,n} =
   3 & 4
  \end{array}
  \\)
+ 
+# $ J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \Gamma (m + \alpha + 1)} {\left({ \frac{x}{2} }\right)}^{2m + \alpha} \text {，行内公式示例} $
+
+$$
+f\left(
+   \left[ 
+     \frac{
+       1+\left\{x,y\right\}
+     }{
+       \left(
+          \frac{x}{y}+\frac{y}{x}
+       \right)
+       \left(u+1\right)
+     }+a
+   \right]^{3/2}
+\right)
+\tag{note in here}
+$$
+
+
+https://www.zybuluo.com/codeep/note/163962
 
 https://en.wikibooks.org/wiki/LaTeX/Mathematics#Sums_and_integrals
 
